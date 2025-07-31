@@ -19,7 +19,7 @@ const WorkStyle = () => {
           <span className="font-semibold bg-red-100 px-1 rounded">
             그 안에서 해결 가능한 방법을 찾아내는 것
           </span>
-          이 제 work style입니다. 문제를 피하기보다는 마주하고, 가능한 대안을 함께 도출해내려 노력합니다.
+          이 제 Work Style입니다. 문제를 피하기보다는 마주하고, 가능한 대안을 함께 도출해내려 노력합니다.
         </li>
         <li>
           3. {" "}

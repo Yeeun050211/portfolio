@@ -11,7 +11,7 @@ const Projects = () => {
 
   return (
     <section className="max-w-5xl ml-25 pt-6 pb-12 px-2">
-      {/* 📁 주요 프로젝트 */}
+      {/* 주요 프로젝트 */}
       <h2 className="text-2xl font-bold mb-3">주요 프로젝트 포트폴리오</h2>
       <hr className="mb-8 border-gray-300" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-9">
@@ -19,8 +19,8 @@ const Projects = () => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-
-      {/* 🚧 현재 진행 중인 프로젝트 */}
+      
+      {/* 현재 진행 중인 프로젝트 */}
       <h2 className="text-2xl font-bold mt-16 mb-3">현재 진행 중인 프로젝트</h2>
       <hr className="mb-8 border-gray-300" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-9">
